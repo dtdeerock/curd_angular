@@ -1,0 +1,9 @@
+<div *ngIf="laptop">
+  <h2>Laptop Details</h2>
+  <p>ID: {{ laptop.id }}</p>
+  <p>Brand: {{ laptop.brand }}</p>
+  <p>Model: {{ laptop.model }}</p>
+  <p>Price: {{ laptop.price }}</p>
+  <button (click)="editLaptop()">Edit</button>
+  <button (click)="goBack()">Go Back</button>
+</div>
